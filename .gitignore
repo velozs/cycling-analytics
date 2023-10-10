@@ -89,3 +89,5 @@ coverage
 AppData/
 Local/
 Temp/
+
+.eslintcache
