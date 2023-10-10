@@ -22,7 +22,6 @@
 *.njsproj
 *.sln
 *.sw?
-*.suo
 *.user
 *.userosscache
 *.sln.docstates
@@ -57,7 +56,6 @@ ehthumbs.db
 *.swp
 
 # Visual Studio Code
-.vscode/
 .history/
 
 # Jupyter Notebooks
@@ -86,9 +84,6 @@ coverage
 
 # nyc test coverage
 .nyc_output
-
-# Visual Studio Code directories
-.vscode/
 
 # WER (Windows Error Reporting)
 AppData/
