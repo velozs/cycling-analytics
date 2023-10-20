@@ -1,13 +1,13 @@
-const {
+import {
   calculateChronicTrainingLoad,
   calculateAcuteTrainingLoad,
   calculateTrainingStressBalance,
   calculateNormalizedPower,
   calculateIntensityFactor,
   calculateTrainingStressScore,
-} = require('../src');
+} from '../src';
 
-const roundToNearest = (number) => Math.round(number);
+const roundToNearest = (number: number) => Math.round(number);
 
 describe('normalizedPower', () => {
   test('NP should be 200 for a length of 10 power data array when they are all equal', () => {
@@ -74,6 +74,12 @@ describe('trainingStressScore', () => {
     const tss = calculateTrainingStressScore(4500, 157, 241);
 
     expect(roundToNearest(tss)).toBe(53);
+  });
+
+  test('TSS should be 113 for NP 188, FTP 250 and duration 2 hours', () => {
+    const tss = calculateTrainingStressScore(7200, 188, 250);
+
+    expect(roundToNearest(tss)).toBe(113);
   });
 });
 

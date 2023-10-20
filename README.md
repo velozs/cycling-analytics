@@ -1,4 +1,3 @@
-
 # @velozs/cycling-analytics
 
 This library offers essential functions to calculate key training metrics:
@@ -25,8 +24,8 @@ This library offers essential functions to calculate key training metrics:
 ## Getting Started
 
 To get started with `@velozs/cycling-analytics`, simply install it using npm:
-    
-```sh   
+
+```sh
 npm install @velozs/cycling-analytics
 ```
 

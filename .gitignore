@@ -90,4 +90,8 @@ AppData/
 Local/
 Temp/
 
+# Eslint
 .eslintcache
+
+# Parcel
+.parcel-cache/
